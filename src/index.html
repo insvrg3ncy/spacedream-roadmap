@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Dream | Roadmap развития</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/webp" href="../static/logo.webp">
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="twinkling"></div>
+    
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <img src="../static/logo.webp" alt="Logo" class="logo-img">
+                <h1>Space Dream</h1>
+            </div>
+            <p class="subtitle">Дорожная карта развития проекта</p>
+            <div class="status-badge">
+                <span class="pulse"></span>
+                Активная разработка
+            </div>
+        </header>
+
+        <!-- классы для хуёвин: completed, pending, in-progress -->
+
+        <div class="timeline">
+            <!-- Q1 -->
+            <div class="timeline-item completed" data-delay="0">
+                <div class="timeline-marker">
+                    <div class="marker-icon">✓</div>
+                </div>
+                <div class="timeline-content">
+                    <div class="quarter">Q1 2026</div>
+                    <h3>заголовок</h3>
+                    <ul class="feature-list">
+                        <li class="completed">выфывфывф</li>
+                        <li class="completed">ывфыфвыфв</li>
+                        <li class="completed">ыфвывфывфя</li>
+                        <li class="completed">ывфывфывф</li>
+                    </ul>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 100%"></div> <!-- прогресс бар снизу под кварталом -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Q2 -->
+            <div class="timeline-item in-progress" data-delay="0.2">
+                <div class="timeline-marker">
+                    <div class="marker-icon">⚙️</div>
+                </div>
+                <div class="timeline-content">
+                    <div class="quarter">Q2 2026</div>
+                    <h3>заголовок</h3>
+                    <ul class="feature-list">
+                        <li class="in-progress">ывфывфвыф (85%)</li>
+                        <li class="in-progress">ывфывфывф (60%)</li>
+                        <li class="completed">ыфввыфвыф</li>
+                        <li class="pending">ыфввыф</li>
+                    </ul>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 65%"></div>
+                    </div>
+                    <span class="progress-text">65% завершено</span>
+                </div>
+            </div>
+
+            <!-- Q3 -->
+            <div class="timeline-item planned" data-delay="0.4">
+                <div class="timeline-marker">
+                    <div class="marker-icon">🚀</div>
+                </div>
+                <div class="timeline-content">
+                    <div class="quarter">Q3 2026</div>
+                    <h3>заголовок</h3>
+                    <ul class="feature-list">
+                        <li class="planned">ыфвывф</li>
+                        <li class="planned">ыфввыф</li>
+                        <li class="planned">ыфвыфв</li>
+                        <li class="planned">ывфвыф</li>
+                    </ul>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 25%"></div>
+                    </div>
+                    <span class="progress-text">В разработке</span>
+                </div>
+            </div>
+
+            <!-- Q4 -->
+            <div class="timeline-item planned" data-delay="0.6">
+                <div class="timeline-marker">
+                    <div class="marker-icon">🎯</div>
+                </div>
+                <div class="timeline-content">
+                    <div class="quarter">Q4 2026</div>
+                    <h3>заголовок</h3>
+                    <ul class="feature-list">
+                        <li class="planned">ывфывф</li>
+                        <li class="planned">ыфвывф</li>
+                        <li class="planned">выфвыффыв</li>
+                        <li class="planned">ыфввыфывф</li>
+                    </ul>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 10%"></div>
+                    </div>
+                    <span class="progress-text">Планируется</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-number">колво</div>
+                <div class="stat-label">Задач завершено</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">колво</div>
+                <div class="stat-label">В работе</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">колво</div>
+                <div class="stat-label">Всего задач</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">процент</div>
+                <div class="stat-label">Прогресс</div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <p>Последнее обновление: <span id="last-updated"></span></p>
+            <div class="social-links">
+                <a href="https://github.com/Space-Dream-Station/SpaceDream" target="_blank" class="social-link">GitHub</a>
+                <a href="https://discord.gg/HSkWDhZewc" target="_blank" class="social-link">Discord</a>
+                <a href="https://boosty.to/prichinatryaski/donate" target="_blank" class="social-link">Boosty</a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
